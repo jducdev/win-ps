@@ -1,0 +1,25 @@
+# Ignore PowerShell temporary files
+*.log
+*.tmp
+*.ps1~  # Backup files created by some editors
+
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore Visual Studio specific files
+.vs/
+.vscode/
+
+# Ignore Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
